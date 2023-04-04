@@ -1,0 +1,61 @@
+.expent-intakesection {
+  display: flex;
+  gap: 1rem;
+}
+.expent-intake-infobtns {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  gap: 0.5rem;
+}
+.expent-info-components {
+  flex: 1;
+}
+.expent-general-information {
+  /* width: 1000px; */
+  background-color: var(--expent-background-offwhite);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+}
+.expent-info-heading {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+.expent-question-components {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.expent-info-btn {
+  padding: 1rem;
+  text-align: left;
+  background-color: var(--expent-background-offwhite);
+  border: none;
+  border-radius: 0.5rem;
+}
+.active {
+  background-color: var(--expent-white-color);
+  border: 1px solid black;
+}
+.expent-primary-btn {
+  padding: 1rem;
+  text-align: left;
+  background-color: var(--expent-progressbar);
+  border: none;
+  border-radius: 0.5rem;
+  margin-left: 1rem;
+}
+.expent-secondary-btn {
+  padding: 1rem;
+  text-align: left;
+  background-color: var(--expent-white-color);
+  border: 2px solid var(--expent-background-offwhite);
+
+  border-radius: 0.5rem;
+}
+.expent-primary-secondary-btns {
+  text-align: right;
+}

@@ -1,0 +1,18 @@
+.expent-main-progress-wrapper {
+  width: 220px;
+  line-height: 2rem;
+  text-align: center;
+}
+.progress-heading {
+  font-size: 1rem;
+}
+.progress-date {
+  font-size: 0.75rem;
+}
+.expent-main-progressbar {
+  background-color: var(--expent-offwhite-color);
+}
+.expent-main-progressbar .progress-bar {
+  background-color: var(--expent-progressbar);
+  height: 5px;
+}

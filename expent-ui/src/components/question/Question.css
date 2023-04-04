@@ -1,0 +1,23 @@
+.expent-question-wrapper {
+  background-color: var(--expent-white-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.question-num {
+  margin-bottom: 0.5rem;
+}
+.question-text {
+  margin: 0.5rem 0;
+  color: #003b4c;
+}
+.blankdiv {
+  border: 1px solid #ced9dd;
+}
+.expent-question-select {
+  width: 300px;
+  background-color: var(--expent-background-offwhite);
+  color: #618590;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+}

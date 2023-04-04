@@ -1,0 +1,49 @@
+.expent-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  color: var(--expent-white-color);
+}
+.expent-logo-and-navicons {
+  display: flex;
+  gap: 2rem;
+}
+.expent-logo {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--expent-white-color);
+}
+.expent-navicons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-size: 1rem;
+}
+.expent-login-and-notifications {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  gap: 2rem;
+}
+.username {
+  font-size: 14px;
+}
+.icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.625rem;
+}
+.notification-icon {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.15);
+}
+.active-icon {
+  background-color: var(--expent-white-color);
+  color: var(--expent-progressbar);
+}
